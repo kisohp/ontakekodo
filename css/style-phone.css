@@ -28,7 +28,7 @@
    
    
    .header{
-     padding: 30px 4% 10px;
+     padding: 30px 4% 0;
      height:80px;
      background:black;
      color:azure;
@@ -71,7 +71,6 @@
  
  .tab {	
      top:10px;
-     left:5px;
    text-decoration: none;
    color: #faf9f9;
    position:relative;
