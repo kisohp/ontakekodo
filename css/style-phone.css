@@ -24,7 +24,7 @@
    .banner{
     
      background-image: url(../images/ravel1.png);
-     height:200px;
+     height:50vh;
      width:100%;
      background-position:center bottom;                 
      background-size:cover;  
