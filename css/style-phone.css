@@ -101,7 +101,7 @@
    
  }
  li {
-   margin: 0 0 0 15px;
+   margin: 0 0 0 10px;
    font-size: 18px;
    color:rgb(255, 255, 255);
  }
@@ -161,7 +161,7 @@
     background-position:center bottom;                 
     background-size:cover;  
    width:100%;
-   height:60vh;
+   height:50vh;
    
    
   }
