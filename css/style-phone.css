@@ -28,7 +28,7 @@
    
    
    .header{
-     padding: 0px 4% 10px;
+     padding: 30px 4% 10px;
      height:80px;
      background:black;
      color:azure;
@@ -91,8 +91,9 @@
  .tab:hover::before{
    width: 100%;
  }
- 
- 
+ nav {
+   margin: 0 0 0 auto;
+ }
  ul {
    list-style: none;
    margin: 0;
@@ -100,8 +101,8 @@
    
  }
  li {
-   margin: 0 0 0 5px;
-   font-size: 16px;
+   margin: 0 0 0 10px;
+   font-size: 18px;
    color:rgb(255, 255, 255);
  }
  
