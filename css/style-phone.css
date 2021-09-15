@@ -71,6 +71,7 @@
  
  .tab {	
      top:10px;
+     left:5px;
    text-decoration: none;
    color: #faf9f9;
    position:relative;
