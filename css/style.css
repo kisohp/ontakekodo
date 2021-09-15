@@ -94,32 +94,17 @@ body{
     top:0;
   }
 
-/*header {
 
-  padding: 30px 4% 10px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  z-index: 100;
-  background: rgba(43, 41, 41, 0.8);
-  box-shadow:0px 3px 5px #999;
-}
-.headline {
-  margin: 0; padding: 0;
-  font-size: 20px;
-}*/
-/*
-a {	
+
+.tab {	
   text-decoration: none;
   color: #faf9f9;
   position:relative;
 }
-a::before{
+.tab::before{
   content: "";
 	width: 0;
-	height: 1px;
+	height: 2px;
 	background: #fff;
 	display: block;
 	position: absolute;
@@ -129,9 +114,9 @@ a::before{
 	transform: translateX(-50%);
 	transition: .3s;
 }
-a:hover::before{
+.tab:hover::before{
   width: 100%;
-}*/
+}
 nav {
   margin: 0 0 0 auto;
 }
