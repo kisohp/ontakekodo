@@ -17,7 +17,7 @@
       
      
    }
-   .cursor,
+   /*.cursor,
   .follower {
     border-radius: 50%;
     position: fixed;
@@ -45,7 +45,7 @@
     .follower.is-active {
       transform: scale(0);
     }
-  
+  */
     .banner{
      
       background-image: url(../images/ravel1.png);
@@ -59,7 +59,7 @@
     
     .header{
       padding: 30px 4% 10px;
-      height:100px;
+      height:80px;
       background:black;
       color:azure;
       width:100%;
