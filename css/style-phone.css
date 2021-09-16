@@ -100,9 +100,11 @@
   
   
   .tab {	
+    margin-bottom: 10px;
     text-decoration: none;
     color: #faf9f9;
     position:relative;
+  
   }
   .tab::before{
     content: "";
