@@ -122,6 +122,7 @@
   .tab:hover::before{
     width: 100%;
   }
+  /*
   nav {
     margin: 0 0 0 auto;
   }
@@ -135,7 +136,7 @@
     margin: 0 0 0 15px;
     font-size: 14px;
     color:rgb(255, 255, 255);
-  }
+  }*/
   /*
    .main-visual {
     background-image: url(../images/TopPicture.png);
