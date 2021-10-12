@@ -49,7 +49,7 @@ body{
   .banner{
    
     background-image: url(../images/TopPicture.png);
-    height:100vh;
+    height:80vh;
     width:100%;
     background-position:center bottom;                 
     background-size:cover;  
@@ -134,14 +134,14 @@ li {
   font-size: 14px;
   color:rgb(255, 255, 255);
 }
-
+/*
  .main-visual {
   background-image: url(../images/TopPicture.png);
   background-size: cover;
   height: 100vh;
   
   position: relative;
-}
+}*/
 
 
 
