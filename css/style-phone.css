@@ -17,35 +17,7 @@
       
      
    }
-   /*.cursor,
-  .follower {
-    border-radius: 50%;
-    position: fixed;
-    top: 0;
-    left: 0; 
-    pointer-events: none;
-    cursor: none;
-  }
-  .cursor {
-   
-    z-index: 1001;
-  }
-  .follower {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(235, 19, 19, 0.555);
-    transition: transform ease .1s;
-    text-align: center;
-    z-index: 1000;
-    transform:scale(0.5);
-  }
-    .follower.is-active {
-      transform: scale(0);
-    }
-  */
+  
     .banner{
      
       background-image: url(../images/TopPicture.png);
@@ -58,7 +30,7 @@
     
     
     .header{
-      padding: 30px 4% 10px;
+      padding: 50px 4% 10px;
       height:80px;
       background:black;
       color:azure;
