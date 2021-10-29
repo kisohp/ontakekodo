@@ -170,8 +170,7 @@
     color:white;
     padding-top: 30px;
     padding-right: 10px;
-    position: absolute;/*←絶対位置*/
-    bottom: 0; /*下に固定*/
+    
   }
 
 
