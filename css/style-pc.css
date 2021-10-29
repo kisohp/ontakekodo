@@ -191,17 +191,14 @@ h2{
 
  footer {
    width:100%;
-   height:20vh;
+   height:100px;
    background-color: black;
-}
- 
- .cr{
-   position:absolute;
-   height:50px;
-   width:100%;
-   background-color: black;
- }
- .footer-text{
-   color: #fff;
    text-align: right;
+   color:white;
+   padding-top: 70px;
+   padding-right: 10px;
  }
+
+ 
+   
+ 

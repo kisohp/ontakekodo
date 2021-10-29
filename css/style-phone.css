@@ -148,9 +148,9 @@
   
   }
   
-   .box{
-     width:100vw;
-     height:100%;
+   .box img{
+    width:400px;
+    height:900px;
    }
   
   /* .footer-ex {
@@ -162,23 +162,15 @@
     height:80vh;
    
    }*/
-  
    footer {
-     width:100%;
-     height:20vh;
-     background-color: black;
-  }
-
-   .cr{
-    position:absolute;
-    height:30px;
     width:100%;
+    height:50px;
     background-color: black;
+    text-align: right;
+    color:white;
+    padding-top: 35px;
+    padding-right: 10px;
   }
 
-   .footer-text{
-     color: #fff;
-     text-align: right;
-     padding-bottom: 20px;
-   }
+
  
