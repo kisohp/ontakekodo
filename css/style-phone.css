@@ -14,9 +14,10 @@
   }
    .site{
       width:100%;
-      
-     
    }
+   .wrap_original {
+    overflow: hidden;
+    }
   
     .banner{
      
@@ -116,7 +117,7 @@
     font-size:40px;
   }
   .pg{
-    font-size:20px;
+    font-size:30px;
   }
    
   h2{
