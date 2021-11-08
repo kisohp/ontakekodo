@@ -11,9 +11,11 @@ body{
    text-align: center;
    margin: 0;
    padding: 0;
+   
 }
  .site{
     width:100%;
+    
  }
 
  .cursor,
@@ -160,26 +162,39 @@ h2{
 }
 
 .box{
-  background-image: url(../images/Paper01.jpg);
- 
+  
+  margin:0 auto;
 }
+
 .txt {
+  
   display: inline-block;
   text-align: left;
   max-width: 600px;
   font-size: 22px;
   line-height: 40px;
   margin: 0 auto;
+ 
 }
-
-
+.stones{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.stone{
+  width:150px;
+  height:auto;
+  margin-right: 20px;
+}
+.human{
+  width:250px;
+  height:auto;
+}
 .im{
   width:300px;
   height:auto;
 
 }
 
- 
  .About-us{
    background-color:rgb(245, 235, 207);
  }
