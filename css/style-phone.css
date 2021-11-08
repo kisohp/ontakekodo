@@ -136,23 +136,35 @@
     /*background-color:rgba(255, 188, 144, 0.651);*/
   }
   .txt {
+    
     display: inline-block;
     text-align: left;
-    max-width: 600px;
+    max-width: 400px;
     padding-left: 10px;
   }
-  
+  .stones{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .stone{
+    width:100px;
+    height:auto;
+    margin-right: 10px;
+  }
+  .human{
+    width:200px;
+    height:auto;
+  }
   .im{
     width:300px;
     height:auto;
-  
   }
   
-   .box img{
-    width:400px;
-    height:900px;
-   }
   
+   .box{
+    
+    margin:0 auto;
+  }
    .footer-ex {
      
      background-image: url(../images/ravel3.png);
