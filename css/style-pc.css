@@ -197,8 +197,8 @@ h2{
   position   : relative;
   overflow   : hidden;
                     /* 画像のサイズに合わせて変更ください */
-  width      : 500px;
-  height     : 300px;
+  width      : 300px;
+  height     : 400px;
   margin     :0 auto;      /* サンプルは中央寄せの背景：白 */
 }
 .slide img {
