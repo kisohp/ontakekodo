@@ -162,12 +162,11 @@ h2{
 }
 
 .box{
-  
   margin:0 auto;
 }
 
 .txt {
-  
+
   display: inline-block;
   text-align: left;
   max-width: 600px;
@@ -176,23 +175,72 @@ h2{
   margin: 0 auto;
  
 }
-.stones{
-  max-width: 800px;
-  margin: 0 auto;
+.sunimg{
+  text-align: left;
 }
-.stone{
-  width:150px;
+.sun{
+ 
+  width:200px;
   height:auto;
-  margin-right: 20px;
+}
+.slide-w{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 0;
+}
+
+
+.slide {
+
+  display: inline-block;
+ 
+  position   : relative;
+  overflow   : hidden;
+                    /* 画像のサイズに合わせて変更ください */
+  width      : 500px;
+  height     : 300px;
+  margin     :0 auto;      /* サンプルは中央寄せの背景：白 */
+}
+.slide img {
+  display    : block;
+  position   : absolute;
+                      /* 画像のサイズを表示エリアに合せる */
+  width      : inherit;
+  height     : inherit;
+  opacity    : 0;
+  animation  : slideAnime 30s ease infinite;
+}
+ 
+ /*=== スライドのアニメーションを段差で開始する ========= */
+.slide img:nth-of-type(1) { animation-delay: 0s }
+.slide img:nth-of-type(2) { animation-delay: 10s }
+.slide img:nth-of-type(3) { animation-delay: 20s }
+ 
+ /*=== スライドのアニメーション ========================= */
+@keyframes slideAnime{
+   0% { opacity: 0 }
+   16% { opacity: 1 }
+  17% { opacity: 1 }
+  33% { opacity: 0 }
+ 100% { opacity: 0 }
+}
+
+.huim{
+  display: inline-block;
 }
 .human{
   width:250px;
   height:auto;
 }
+
 .im{
   width:300px;
   height:auto;
 
+}
+.pic{
+  width:70vw;
+  height:auto;
 }
 
  .About-us{
