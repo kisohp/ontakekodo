@@ -142,30 +142,77 @@
     max-width: 400px;
     padding-left: 10px;
   }
-  .stones{
-    max-width: 500px;
-    margin: 0 auto;
+  .sunimg{
+    text-align: left;
   }
-  .stone{
+  .sun{
     width:100px;
     height:auto;
-    margin-right: 10px;
+  }
+  .slide-w{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 0;
+  }
+  
+  
+  .slide {
+  
+    display: inline-block;
+   
+    position   : relative;
+    overflow   : hidden;
+                      /* 画像のサイズに合わせて変更ください */
+    width      : 300px;
+    height     : 180px;
+    margin     :0 auto;      /* サンプルは中央寄せの背景：白 */
+  }
+  .slide img {
+    display    : block;
+    position   : absolute;
+                        /* 画像のサイズを表示エリアに合せる */
+    width      : inherit;
+    height     : inherit;
+    opacity    : 0;
+    animation  : slideAnime 30s ease infinite;
+  }
+   
+   /*=== スライドのアニメーションを段差で開始する ========= */
+  .slide img:nth-of-type(1) { animation-delay: 0s }
+  .slide img:nth-of-type(2) { animation-delay: 10s }
+  .slide img:nth-of-type(3) { animation-delay: 20s }
+   
+   /*=== スライドのアニメーション ========================= */
+  @keyframes slideAnime{
+     0% { opacity: 0 }
+     16% { opacity: 1 }
+    17% { opacity: 1 }
+    33% { opacity: 0 }
+   100% { opacity: 0 }
+  }
+  
+  .huim{
+    display: inline-block;
   }
   .human{
-    width:200px;
+    width:150px;
     height:auto;
   }
+  
   .im{
     width:300px;
     height:auto;
   }
-  
+  .pic{
+    width:80vw;
+    height:auto;
+  }
   
    .box{
     
     margin:0 auto;
   }
-   .footer-ex {
+ /*  .footer-ex {
      
      background-image: url(../images/ravel3.png);
      background-position:center bottom;                 
