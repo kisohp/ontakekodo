@@ -51,7 +51,7 @@ body{
     
     background-image: url(../images/TopPicture.png);
     height:100vh;
-    width:100%;
+    width:auto;
     background-position:center bottom;                 
     background-size:cover;  
   }
@@ -224,7 +224,10 @@ h2{
   33% { opacity: 0 }
  100% { opacity: 0 }
 }
-
+.fish{
+  width: 600px;
+  height :auto;
+}
 .huim{
   display: inline-block;
 }
