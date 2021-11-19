@@ -190,7 +190,10 @@
     33% { opacity: 0 }
    100% { opacity: 0 }
   }
-  
+  .fish{
+    width: 400px;
+    height :auto;
+  }
   .huim{
     display: inline-block;
   }
