@@ -16,21 +16,7 @@ body{
  .site{
     width:100%; 
  }
- #loading-wrapper { 
-  position: fixed;
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
-  background: black; 
-  color: white;
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  transition: all 0.3s; 
-  z-index: 9999;
-} 
+
 .completed {
   opacity: 0;
   visibility: hidden;
