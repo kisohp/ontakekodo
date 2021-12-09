@@ -1,4 +1,5 @@
-@media screen and (max-width: 479px) {
+@media print, screen and (min-width: 767px) {
+  /*ウィンドウ幅が767px以上の場合に適用*/
 }
 * {
   box-sizing: border-box;
@@ -13,7 +14,6 @@ body {
 }
 .site {
   width: 100%;
- 
 }
 #loading-wrapper {
   position: fixed;
@@ -34,21 +34,50 @@ body {
   opacity: 0;
   visibility: hidden;
 }
-.wrap_original {
-  overflow: hidden;
+.note {
+  background: black;
+  color: white;
+}
+
+.cursor,
+.follower {
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  cursor: none;
+}
+.cursor {
+  z-index: 1001;
+}
+.follower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(235, 19, 19, 0.555);
+  transition: transform ease 0.1s;
+  text-align: center;
+  z-index: 1000;
+  transform: scale(0.5);
+}
+.follower.is-active {
+  transform: scale(0);
 }
 
 .banner {
   background-image: url(../images/TopPicture.png);
-  height: 50vh;
-  width: 100%;
+  height: 100vh;
+  width: auto;
   background-position: center bottom;
   background-size: cover;
 }
 
 .banner-ex {
   background-image: url(../images/ravel4.png);
-  height: 50vh;
+  height: 100vh;
   width: 100%;
   background-position: center bottom;
   background-size: cover;
@@ -75,29 +104,28 @@ body {
 }
 .nav li a {
   display: inline-block;
-  padding: 3px 10px;
+  padding: 3px 15px;
   color: inherit;
   text-decoration: none;
 }
 /*
-    .container{
-      max-width:1200px;
-      padding:0 15px;
-      width:100%;
-    }
-    .container:after {
-        clear: both;
-        content: "";
-        display: table;
-    }
-    .fixed-top{
-      background:rgba(43, 41, 41, 0.8);
-      position:fixed;
-      top:0;
-    }*/
+  .container{
+    max-width:1200px;
+    padding:0 15px;
+    width:100%;
+  }
+  .container:after {
+      clear: both;
+      content: "";
+      display: table;
+  }
+  .fixed-top{
+    background:rgba(43, 41, 41, 0.8);
+    position:fixed;
+    top:0;
+  }*/
 
 .tab {
-  margin-bottom: 10px;
   text-decoration: none;
   color: #faf9f9;
   position: relative;
@@ -130,9 +158,8 @@ body {
   font-size: 40px;
 }
 .pg {
-  font-size: 30px;
+  font-size: 50px;
 }
-
 h2 {
   padding: 5px; /*文字周りの余白*/
   color: grey; /*文字色*/
@@ -140,28 +167,34 @@ h2 {
   border-bottom: solid 5px rgba(226, 66, 66, 0.651); /*左線（実線 太さ 色）*/
 }
 
-.sen {
-  font-size: 22px;
-  line-height: 30px;
-  margin: 0 auto;
-  /*background-color:rgba(255, 188, 144, 0.651);*/
+.image1 {
+  width: 300px;
+  height: auto;
+  text-align: center;
 }
+
+.box {
+  margin: 0 auto;
+}
+
 .txt {
   display: inline-block;
   text-align: left;
-  max-width: 400px;
-  padding-left: 10px;
+  max-width: 600px;
+  font-size: 22px;
+  line-height: 40px;
+  margin: 0 auto;
 }
 .sunimg {
   text-align: left;
 }
 .sun {
-  width: 100px;
+  width: 200px;
   height: auto;
 }
 .slide-w {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 0;
 }
 
@@ -171,8 +204,8 @@ h2 {
   position: relative;
   overflow: hidden;
   /* 画像のサイズに合わせて変更ください */
-  width: 200px;
-  height: 267px;
+  width: 300px;
+  height: 400px;
   margin: 0 auto; /* サンプルは中央寄せの背景：白 */
 }
 .slide img {
@@ -215,14 +248,14 @@ h2 {
   }
 }
 .fish {
-  width: 400px;
+  width: 600px;
   height: auto;
 }
 .huim {
   display: inline-block;
 }
 .human {
-  width: 150px;
+  width: 250px;
   height: auto;
 }
 
@@ -231,28 +264,30 @@ h2 {
   height: auto;
 }
 .pic {
-  width: 80vw;
+  width: 70vw;
   height: auto;
 }
 
-.box {
-  margin: 0 auto;
+.About-us {
+  background-color: rgb(245, 235, 207);
 }
-/*  .footer-ex {
 
-     background-image: url(../images/ravel3.png);
-     background-position:center bottom;
-     background-size:cover;
-    width:100%;
-    height:80vh;
+/* .footer-ex {
 
-   }*/
+   background-image: url(../images/ravel3.png);
+   background-position:center bottom;
+   background-size:cover;
+  width:100%;
+  height:80vh;
+
+ }*/
+
 footer {
   width: 100%;
-  height: 70px;
+  height: 100px;
   background-color: black;
   text-align: right;
   color: white;
-  padding-top: 30px;
+  padding-top: 70px;
   padding-right: 10px;
 }
