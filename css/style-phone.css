@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #302e2e;
+  background: black;
   color:white;
   text-align: center;
   margin: 0;
@@ -152,76 +152,18 @@ h2 {
   max-width: 400px;
   padding-left: 10px;
 }
-.sunimg {
-  text-align: left;
-}
-.sun {
+
+.s-m {
   width: 100px;
   height: auto;
 }
-.slide-w {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 0;
-}
 
-.slide {
-  display: inline-block;
-
-  position: relative;
-  overflow: hidden;
-  /* 画像のサイズに合わせて変更ください */
-  width: 200px;
-  height: 267px;
-  margin: 0 auto; /* サンプルは中央寄せの背景：白 */
-}
-.slide img {
-  display: block;
-  position: absolute;
-  /* 画像のサイズを表示エリアに合せる */
-  width: inherit;
-  height: inherit;
-  opacity: 0;
-  animation: slideAnime 30s ease infinite;
-}
-
-/*=== スライドのアニメーションを段差で開始する ========= */
-.slide img:nth-of-type(1) {
-  animation-delay: 0s;
-}
-.slide img:nth-of-type(2) {
-  animation-delay: 10s;
-}
-.slide img:nth-of-type(3) {
-  animation-delay: 20s;
-}
-
-/*=== スライドのアニメーション ========================= */
-@keyframes slideAnime {
-  0% {
-    opacity: 0;
-  }
-  16% {
-    opacity: 1;
-  }
-  17% {
-    opacity: 1;
-  }
-  33% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-.fish {
+.mouse {
   width: 400px;
   height: auto;
 }
-.huim {
-  display: inline-block;
-}
-.human {
+
+.st {
   width: 150px;
   height: auto;
 }
