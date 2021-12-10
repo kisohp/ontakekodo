@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #302e2e;
+  background: black;
   color:white;
   text-align: center;
   margin: 0;
@@ -162,7 +162,7 @@ body {
 }
 h2 {
   padding: 5px; /*文字周りの余白*/
-  color: grey; /*文字色*/
+  color: white; /*文字色*/
   background: black; /*背景色*/
   border-bottom: solid 5px rgba(226, 66, 66, 0.651); /*左線（実線 太さ 色）*/
 }
@@ -185,76 +185,19 @@ h2 {
   line-height: 40px;
   margin: 0 auto;
 }
-.sunimg {
-  text-align: left;
-}
-.sun {
+
+.s-m {
   width: 200px;
   height: auto;
 }
-.slide-w {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 0;
+
+
+.mouse{
+  width:600px;
+  height:auto;
 }
 
-.slide {
-  display: inline-block;
-
-  position: relative;
-  overflow: hidden;
-  /* 画像のサイズに合わせて変更ください */
-  width: 300px;
-  height: 400px;
-  margin: 0 auto; /* サンプルは中央寄せの背景：白 */
-}
-.slide img {
-  display: block;
-  position: absolute;
-  /* 画像のサイズを表示エリアに合せる */
-  width: inherit;
-  height: inherit;
-  opacity: 0;
-  animation: slideAnime 30s ease infinite;
-}
-
-/*=== スライドのアニメーションを段差で開始する ========= */
-.slide img:nth-of-type(1) {
-  animation-delay: 0s;
-}
-.slide img:nth-of-type(2) {
-  animation-delay: 10s;
-}
-.slide img:nth-of-type(3) {
-  animation-delay: 20s;
-}
-
-/*=== スライドのアニメーション ========================= */
-@keyframes slideAnime {
-  0% {
-    opacity: 0;
-  }
-  16% {
-    opacity: 1;
-  }
-  17% {
-    opacity: 1;
-  }
-  33% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-.fish {
-  width: 600px;
-  height: auto;
-}
-.huim {
-  display: inline-block;
-}
-.human {
+.st {
   width: 250px;
   height: auto;
 }
