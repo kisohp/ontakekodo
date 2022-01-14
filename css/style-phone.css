@@ -135,8 +135,8 @@ body {
 
 h2 {
   padding: 5px; /*文字周りの余白*/
-  color: white; /*文字色*/
-   background: black; /*背景色*/
+  color: black; /*文字色*/
+  background: white; /*背景色*/
   border-bottom: solid 5px rgba(226, 66, 66, 0.651); /*左線（実線 太さ 色）*/
 }
 
