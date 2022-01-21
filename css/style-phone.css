@@ -39,7 +39,7 @@ body {
 }
 
 .banner {
-  background-image: url(../images/TopA.png);
+  background-image: url(../images/TopA00.png);
   height: 50vh;
   width: 100%;
   background-position: center bottom;
@@ -47,7 +47,7 @@ body {
 }
 
 .banner-ex {
-  background-image: url(../images/TopB.png);
+  background-image: url(../images/TopB00.png);
   height: 50vh;
   width: 100%;
   background-position: center bottom;
