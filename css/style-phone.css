@@ -40,7 +40,7 @@ body {
 
 .banner {
   background-image: url(../images/TopA00.png);
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   background-position: center bottom;
   background-size: cover;
@@ -48,7 +48,7 @@ body {
 
 .banner-ex {
   background-image: url(../images/TopB00.png);
-  height: 50vh;
+  height:40vh;
   width: 100%;
   background-position: center bottom;
   background-size: cover;
@@ -171,6 +171,11 @@ h2 {
 .im {
   width: 300px;
   height: auto;
+}
+.D{
+  padding-top:50px;
+  width:400px;
+  height:auto;
 }
 .pic {
   width: 80vw;
