@@ -6,8 +6,8 @@
 }
 
 body {
-  background: black;
-  color:white;
+  background: white;
+  color:black;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -21,8 +21,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,7 +68,7 @@ body {
 }
 
 .banner {
-  background-image: url(../images/TopPicture.png);
+  background-image: url(../images/TopA.png);
   height: 100vh;
   width: auto;
   background-position: center bottom;
@@ -76,7 +76,7 @@ body {
 }
 
 .banner-ex {
-  background-image: url(../images/Ravel.png);
+  background-image: url(../images/TopB.png);
   height: 100vh;
   width: 100%;
   background-position: center bottom;
@@ -87,7 +87,7 @@ body {
   padding: 30px 4% 10px;
   height: 100px;
   background: black;
-  color: azure;
+  color: white;
   width: 100%;
 }
 .logo {
@@ -108,6 +108,7 @@ body {
   color: inherit;
   text-decoration: none;
 }
+
 /*
   .container{
     max-width:1200px;
